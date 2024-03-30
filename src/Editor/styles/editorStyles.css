@@ -1,0 +1,63 @@
+.tiptap-editor {
+  height: 100%;
+  width: 100%;
+}
+.ProseMirror {
+  padding: 8px 16px;
+  height: 100%;
+  /* background: transparent; */
+  min-height: 100px;
+  max-height: 100%;
+  overflow-y: auto;
+  border-radius: 4px;
+  background-color: "green";
+}
+.ProseMirror:focus {
+  border: none;
+  outline: none;
+}
+
+/* .tiptap-editor .ProseMirror ul {
+  list-style: initial;
+  padding-left: 1rem;
+}
+.tiptap-editor .ProseMirror ol {
+  list-style: decimal;
+  padding-left: 1rem;
+} */
+
+/* Override font size for h1 to h6 in Tiptap editor */
+/* .tiptap-editor .ProseMirror h1 {
+  font-size: 32px;
+}
+
+.tiptap-editor .ProseMirror h2 {
+  font-size: 28px;
+}
+
+.tiptap-editor .ProseMirror h3 {
+  font-size: 24px;
+}
+
+.tiptap-editor .ProseMirror h4 {
+  font-size: 20px;
+}
+
+.tiptap-editor .ProseMirror h5 {
+  font-size: 16px;
+}
+
+.tiptap-editor .ProseMirror h6 {
+  font-size: 14px;
+} */
+
+/* scroll hide */
+::-webkit-scrollbar {
+  width: 4px; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background: #c0bfbf;
+}
